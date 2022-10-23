@@ -1,0 +1,281 @@
+body {
+  background-color: rgb(0, 179, 255);
+}
+
+.father {
+  display: flex;
+  gap: 10px;
+}
+
+.c1, .c4, .c3, .c2 {
+  margin-top: 50px;
+  width: 50px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  -webkit-animation-name: python;
+          animation-name: python;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition-duration: 0.5s;
+}
+.c1 .div1, .c4 .div1, .c3 .div1, .c2 .div1, .c1 .div2, .c4 .div2, .c3 .div2, .c2 .div2 {
+  position: absolute;
+  top: 12%;
+  left: 14%;
+  width: 35px;
+  height: 5px;
+  background-color: rgb(0, 179, 255);
+  -webkit-animation-name: python1;
+          animation-name: python1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.c1 .div2, .c4 .div2, .c3 .div2, .c2 .div2 {
+  top: 18%;
+  -webkit-animation-name: python1;
+          animation-name: python1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.c1 .div3, .c4 .div3, .c3 .div3, .c2 .div3 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 179, 255);
+  border-radius: 40px 40px 20px 20px;
+  -webkit-animation-name: python2;
+          animation-name: python2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.c2 {
+  height: 175px;
+  margin-top: 40px;
+  -webkit-animation-name: c2;
+          animation-name: c2;
+  -webkit-animation-duration: 1;
+          animation-duration: 1;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.c2 .div1, .c2 .div2 {
+  top: 8%;
+  -webkit-animation-name: c2-1;
+          animation-name: c2-1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.c2 .div2 {
+  top: 14%;
+  -webkit-animation-name: c2-1;
+          animation-name: c2-1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.c2 .div3 {
+  top: 74%;
+  -webkit-animation-name: c2-2;
+          animation-name: c2-2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.c3 {
+  margin-top: 20px;
+  height: 210px;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.c3 .div1, .c3 .div2 {
+  top: 8%;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.c3 .div2 {
+  top: 14%;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.c3 .div3 {
+  top: 78%;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.c4 {
+  height: 165px;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.c4 .div1, .c4 .div2 {
+  top: 8%;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.c4 .div2 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  top: 14%;
+}
+.c4 .div3 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  top: 72.5%;
+}
+
+.zerikib-kettim {
+  position: absolute;
+  top: 0px;
+  left: 246px;
+  width: 70px;
+  height: 105px;
+  background-color: rgb(0, 179, 255);
+  border-radius: 30px 20px 30px 30px;
+  z-index: 9999;
+  -webkit-animation-name: bla;
+          animation-name: bla;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+
+.zerikib-kettim2 {
+  position: absolute;
+  top: 65px;
+  left: 248px;
+  width: 25px;
+  height: 45px;
+  background-color: white;
+}
+
+.barmoq {
+  position: absolute;
+  top: 105px;
+  left: 248px;
+  width: 70px;
+  height: 60px;
+  background-color: white;
+  border-radius: 0px 38px 80px 0px;
+  -webkit-animation-name: fifth;
+          animation-name: fifth;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+
+@-webkit-keyframes fifth {
+  to {
+    transform: translateY(-17px);
+  }
+}
+
+@keyframes fifth {
+  to {
+    transform: translateY(-17px);
+  }
+}
+@-webkit-keyframes bla {
+  to {
+    transform: translateY(-15.9px);
+  }
+}
+@keyframes bla {
+  to {
+    transform: translateY(-15.9px);
+  }
+}
+@-webkit-keyframes python {
+  to {
+    height: 100px;
+  }
+}
+@keyframes python {
+  to {
+    height: 100px;
+  }
+}
+@-webkit-keyframes python1 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@keyframes python1 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes python2 {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@keyframes python2 {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@-webkit-keyframes c2 {
+  to {
+    height: 100px;
+  }
+}
+@keyframes c2 {
+  to {
+    height: 100px;
+  }
+}
+@-webkit-keyframes c2-1 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@keyframes c2-1 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes c2-2 {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@keyframes c2-2 {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@-webkit-keyframes x-x {}
+@keyframes x-x {}/*# sourceMappingURL=main.css.map */
